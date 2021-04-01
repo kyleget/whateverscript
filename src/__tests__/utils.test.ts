@@ -1,5 +1,4 @@
-import type { Whatever } from '../types';
-import { makeWhatever } from '../utils';
+import { makeWhatever } from '../index';
 
 describe('makeWhatever', () => {
   test('it should convert a date to a `WhateverScript` date', () => {
