@@ -31,7 +31,7 @@ import Whatever, { makeWhatever } from 'whateverscript;
 
 const myHelloWorld1: Whatever = helloWorld as Whatever;  // Hello World!
 
-const myHellowWorld2: Whatever = makeWhatever(helloWorld);  // Hello World!
+const myHelloWorld2: Whatever = makeWhatever(helloWorld);  // Hello World!
 ```
 
 ### Other Usage
