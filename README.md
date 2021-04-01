@@ -19,7 +19,7 @@ function foo(bar: Whatever): Whatever {
 ```
 
 ### Advanced Usage
-You can also quickly convert existing typed objects by either explicitly setting the `Whatever` type or by using the `makeWhatever` utiltiy function.
+You can also quickly convert existing typed objects by either explicitly setting the `Whatever` type or by using the `makeWhatever` utility function.
 ```
 // foo.ts
 export const helloWorld: IntrinsicAttributes & InferPropsInner<Pick<{ myProp }> & Requireable<(...args)> = 'Hello World!';
