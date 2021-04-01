@@ -15,15 +15,16 @@ import type Whatever from 'whateverscript';
 function foo(bar: Whatever): Whatever {
   return 'Hello ${bar}!';
 }
-
 ```
 
 You can also quickly convert existing typed objects by either explicitly setting the `Whatever` type or by using the `makeWhatever` utiltiy function.
 ```
-# foo.ts
+// foo.ts
 export const helloWorld: IntrinsicAttributes & InferPropsInner<Pick<{ myProp }> & Requireable<(...args)> = 'Hello World!';
+```
 
-# bar.ts
+```
+// bar.ts
 import Whatever, { makeWhatever } from 'whateverscript;
 
 import { helloWorld } from './foo';
