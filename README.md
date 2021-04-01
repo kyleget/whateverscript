@@ -21,9 +21,7 @@ You can also quickly convert existing typed objects by either explicitly setting
 ```
 // foo.ts
 export const helloWorld: IntrinsicAttributes & InferPropsInner<Pick<{ myProp }> & Requireable<(...args)> = 'Hello World!';
-```
 
-```
 // bar.ts
 import Whatever, { makeWhatever } from 'whateverscript;
 
