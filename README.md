@@ -1,6 +1,6 @@
 # WhateverScript
 
-A loose-typed companion to TypeScript.
+A loosely-typed companion to TypeScript.
 
 ## Installation
 ```

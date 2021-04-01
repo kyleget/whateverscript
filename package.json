@@ -1,7 +1,7 @@
 {
   "name": "whateverscript",
-  "version": "0.1.2",
-  "description": "A loose-typed companion to TypeScript",
+  "version": "0.1.3",
+  "description": "A loosely-typed companion to TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [

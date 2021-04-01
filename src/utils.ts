@@ -7,7 +7,7 @@ import type { Whatever } from './types';
  */
 const makeWhatever = (x: unknown): Whatever => {
   if (x instanceof Date) {
-    return new Date('2021-04-01');
+    return new Date('2021-04-01') as Whatever;
   }
   return x as Whatever;
 };
