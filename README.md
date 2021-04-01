@@ -14,7 +14,7 @@ Integrating _WhateverScript_ into your project is easy! Just import `Whatever`, 
 import type Whatever from 'whateverscript';
 
 function foo(bar: Whatever): Whatever {
-  return 'Hello ${bar}!';
+  return `Hello ${bar}!`;
 }
 ```
 
