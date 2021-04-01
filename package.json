@@ -1,0 +1,10 @@
+{
+  "name": "whateverscript",
+  "version": "0.0.1",
+  "description": "A loose-typed companion to TypeScript",
+  "main": "index.ts",
+  "repository": "https://github.com/kyleget/whateverscript.git",
+  "author": "Kyle Getrost <kyle@motionhungry.com>",
+  "license": "MIT",
+  "private": false
+}
